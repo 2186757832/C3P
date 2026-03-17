@@ -9,16 +9,16 @@ Our algorithm reduces the time complexity by one order of magnitude compared wit
 
 ## Contents
 The major content of our repo are:
- - `data/` A folder that contains the datasets used in our experiments CIFAR10, CIFAR100, eorosat, EMNIST.
- - `models/` Our pre trained models.
+ - `data/` A folder that contains the datasets used in our experiments CIFAR10, CIFAR100, Food101, ImageNet, iNaturalist.
+ - `models/` The classifier we used in the experiment.
  - `Results/` A folder that contains different files from different experiments.
- - `test/` Contains all training codes.
+ - `test/` Code containing all analysis experimental results.
  - `train/` Contains all training codes.
 
-ICP folder contains:
+test folder contains:
 
-1. `main_new3.py`: the main code for running experiments for main results.
-2. `main_test3.py`: the main code for running experiments for abalation study.
+1. `Stand.py`: The main code used to run the primary benchmark result experiments.
+2. `C3P.py`: The main code used to run the primary experiments of our results.
 
 ## Prerequisites
 
